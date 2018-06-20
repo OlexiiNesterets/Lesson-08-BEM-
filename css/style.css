@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.page {
+    height: 600px;
+    width: 100%;
+    padding: 31px 0px;
+    margin: 0 auto;
+    background: #c5c5c8;
+}
+
+.content {
+    box-sizing: border-box;
+    padding: 109px 51px 100px 63px;
+    margin: 0 auto;
+    width: 800px;
+    height: 600px;
+    background: url("../img/main bg.jpg");
+}
+
+.product {
+    border-radius: 10px;
+    background-color:  #111a28;
+    box-shadow: 0px 0px 65px 0px rgba(0, 0, 0, 0.82);
+    width: 686px;
+    height: 391px;
+    font-size: 0px;
+}
+
+.product__header {
+    padding-left: 21px;
+    height: 79px;
+}
+
+.product__logo {
+    display: inline-block;
+    margin-top: 24px;
+}
+
+.product__img {
+    display: inline-block;
+    height: 259px;
+    width: 444px;
+}
+
+.product__mainImg {
+    margin: 48px 79px 52px 36px;
+}
+
+.product__info {
+    float: right;
+    height: calc(259px + 54px);
+    width: 242px;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
+    color: #e1e1e1;
+}
+
+.product__infoHeading {
+    display: inline-block;
+    font-weight: 100;
+    font-size: 24px;
+    line-height: 1.2;
+    margin-bottom: 10px;
+}
+
+.product__infoDescription {
+    display: block;
+    font-size: 14px;
+    opacity: 0.14;
+}
+
+.rate {
+    display: block;
+    margin: 20px 0px;
+}
+
+.select {
+    display: inline-block;
+    width: 69px;
+    height: 32px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    outline-color: #5d749b;
+    border: 1px solid rgba(255, 255, 255, 0.26);
+    color: rgba(255, 255, 255, 0.26);
+    background: url("../img/Rectangle2.png") no-repeat transparent;
+    background-position: 46px 13px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    cursor: pointer;
+}
+
+.button {
+    display: inline-block;
+    margin-top: 20px;
+    width: 184px;
+    height: 40px;
+    background: #4c525a26;
+    outline-color: #5d749b;
+    border: 1px solid rgba(255, 255, 255, 0.26);
+    color: rgba(255, 255, 255, 0.26);
+}
+
+.addToCart {
+    cursor: pointer;
+}
+
+.product__bullets {
+    width: 444px;
+    height: 54px;
+    padding-left: 27%;
+}
+
+.colorSample {
+    margin: 22px 10px 0px 0px;
+    border: 2px solid transparent;
+    border-radius: 50%;
+    vertical-align: top;
+}
+
+.colorSample:hover {
+    width: 12xp;
+    height: 12px;
+    margin-right: 7px;
+    border-color: rgba(255, 255, 255, 0.815);
+}
+
