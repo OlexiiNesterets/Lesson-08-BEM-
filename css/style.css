@@ -7,9 +7,7 @@
 
 .page {
     height: 600px;
-    width: 100%;
     padding: 31px 0px;
-    margin: 0 auto;
     background: #c5c5c8;
 }
 
@@ -18,7 +16,6 @@
     padding: 109px 51px 100px 63px;
     margin: 0 auto;
     width: 800px;
-    height: 600px;
     background: url("../img/main bg.jpg");
 }
 
@@ -26,7 +23,6 @@
     border-radius: 10px;
     background-color:  #111a28;
     box-shadow: 0px 0px 65px 0px rgba(0, 0, 0, 0.82);
-    width: 686px;
     height: 391px;
     font-size: 0px;
 }
@@ -41,19 +37,17 @@
     margin-top: 24px;
 }
 
-.product__img {
+.product__mainImg {
     display: inline-block;
-    height: 259px;
-    width: 444px;
 }
 
-.product__mainImg {
+.product__img {
     margin: 48px 79px 52px 36px;
 }
 
 .product__info {
     float: right;
-    height: calc(259px + 54px);
+    height: 313px;
     width: 242px;
     font-family: 'Noto Sans', sans-serif;
     font-size: 16px;
@@ -61,10 +55,10 @@
 }
 
 .product__infoHeading {
-    display: inline-block;
     font-weight: 100;
     font-size: 24px;
     line-height: 1.2;
+    opacity: 0.7;
     margin-bottom: 10px;
 }
 
@@ -80,10 +74,8 @@
 }
 
 .select {
-    display: inline-block;
     width: 69px;
     height: 32px;
-    box-sizing: border-box;
     padding-left: 10px;
     outline-color: #5d749b;
     border: 1px solid rgba(255, 255, 255, 0.26);
@@ -92,32 +84,31 @@
     background-position: 46px 13px;
     -webkit-appearance: none;
     -moz-appearance: none;
+    appearance: none;
     cursor: pointer;
 }
 
 .button {
-    display: inline-block;
-    margin-top: 20px;
+    margin-top: 25px;
     width: 184px;
     height: 40px;
     background: #4c525a26;
     outline-color: #5d749b;
     border: 1px solid rgba(255, 255, 255, 0.26);
     color: rgba(255, 255, 255, 0.26);
-}
-
-.addToCart {
     cursor: pointer;
 }
 
 .product__bullets {
+    display: inline-block;
+    box-sizing: border-box;
     width: 444px;
     height: 54px;
-    padding-left: 27%;
+    padding-left: 185px;
 }
 
 .colorSample {
-    margin: 22px 10px 0px 0px;
+    margin: 20px 10px 0px 0px;
     border: 2px solid transparent;
     border-radius: 50%;
     vertical-align: top;
