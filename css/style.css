@@ -9,6 +9,8 @@
     height: 600px;
     padding: 31px 0px;
     background: #c5c5c8;
+    background: url("../img/main bg.jpg");
+    background-size: 100%;
 }
 
 .content {
@@ -16,7 +18,6 @@
     padding: 109px 51px 100px 63px;
     margin: 0 auto;
     width: 800px;
-    background: url("../img/main bg.jpg");
 }
 
 .product {
