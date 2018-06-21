@@ -112,13 +112,10 @@
     margin: 20px 10px 0px 0px;
     border: 2px solid transparent;
     border-radius: 50%;
-    vertical-align: top;
 }
 
 .colorSample:hover {
-    width: 12xp;
-    height: 12px;
-    margin-right: 7px;
+    transform: scale(1.3);
     border-color: rgba(255, 255, 255, 0.815);
 }
 
