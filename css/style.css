@@ -14,8 +14,13 @@
 
 .product {
     position: absolute;
-    margin: 10% 0% 0% 24%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto auto;
     width: 686px;
+    height: fit-content;
     border-radius: 10px;
     background-color:  #111a28;
     box-shadow: 0px 0px 65px 0px rgba(0, 0, 0, 0.82);
@@ -25,6 +30,7 @@
 .product__header {
     padding-left: 21px;
     height: 79px;
+    /* background: rgb(108, 81, 136); */
 }
 
 .product__logo {
@@ -47,6 +53,7 @@
     font-family: 'Noto Sans', sans-serif;
     font-size: 16px;
     color: #e1e1e1;
+    /* background: rgb(102, 148, 56); */
 }
 
 .product__infoHeading {
@@ -99,6 +106,7 @@
     box-sizing: border-box;
     width: 444px;
     height: 54px;
+    /* background: rgb(99, 49, 86); */
 }
 
 .colorSet {
